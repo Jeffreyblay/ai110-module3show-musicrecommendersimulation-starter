@@ -1,21 +1,21 @@
-id,title,artist,genre,mood,energy,tempo_bpm,valence,danceability,acousticness
-1,Sunrise City,Neon Echo,pop,happy,0.82,118,0.84,0.79,0.18
-2,Midnight Coding,LoRoom,lofi,chill,0.42,78,0.56,0.62,0.71
-3,Storm Runner,Voltline,rock,intense,0.91,152,0.48,0.66,0.10
-4,Library Rain,Paper Lanterns,lofi,chill,0.35,72,0.60,0.58,0.86
-5,Gym Hero,Max Pulse,pop,intense,0.93,132,0.77,0.88,0.05
-6,Spacewalk Thoughts,Orbit Bloom,ambient,chill,0.28,60,0.65,0.41,0.92
-7,Coffee Shop Stories,Slow Stereo,jazz,relaxed,0.37,90,0.71,0.54,0.89
-8,Night Drive Loop,Neon Echo,synthwave,moody,0.75,110,0.49,0.73,0.22
-9,Focus Flow,LoRoom,lofi,focused,0.40,80,0.59,0.60,0.78
-10,Rooftop Lights,Indigo Parade,indie pop,happy,0.76,124,0.81,0.82,0.35
-11,Velvet Midnight,Aria Voss,classical,melancholy,0.22,66,0.28,0.30,0.95
-12,Concrete Kings,Prime Verse,hip-hop,confident,0.85,96,0.62,0.90,0.08
-13,Neon Overdrive,Pulsewave,edm,euphoric,0.95,128,0.88,0.92,0.03
-14,Dust and Denim,Hollow Pines,country,nostalgic,0.48,100,0.55,0.52,0.72
-15,Silk Confessions,Mia Solent,r&b,romantic,0.44,84,0.74,0.68,0.40
-16,Island Time,Cool Breeze Collective,reggae,laid-back,0.52,92,0.80,0.75,0.45
-17,Iron Verdict,Ashfall,metal,aggressive,0.98,168,0.35,0.55,0.02
-18,Paper Boats,Wren & Willow,folk,wistful,0.33,76,0.47,0.44,0.88
-19,Reflections in the Rain,J. Cole,hip-hop,introspective,0.55,88,0.45,0.70,0.35
-20,Crown Weight,J. Cole,hip-hop,motivational,0.72,94,0.60,0.82,0.15
+id,title,artist,genre,mood,energy,tempo_bpm,valence,danceability,acousticness,instrumentalness,popularity,release_year,language,mood_tags
+1,Sunrise City,Neon Echo,pop,happy,0.82,118,0.84,0.79,0.18,0.02,78,2021,en,euphoric|uplifting|summery
+2,Midnight Coding,LoRoom,lofi,chill,0.42,78,0.56,0.62,0.71,0.85,64,2020,instrumental,mellow|focused|nostalgic
+3,Storm Runner,Voltline,rock,intense,0.91,152,0.48,0.66,0.10,0.05,55,2018,en,aggressive|driving|powerful
+4,Library Rain,Paper Lanterns,lofi,chill,0.35,72,0.60,0.58,0.86,0.90,48,2022,instrumental,calm|nostalgic|rainy
+5,Gym Hero,Max Pulse,pop,intense,0.93,132,0.77,0.88,0.05,0.01,82,2023,en,aggressive|hype|euphoric
+6,Spacewalk Thoughts,Orbit Bloom,ambient,chill,0.28,60,0.65,0.41,0.92,0.95,33,2019,instrumental,dreamy|calm|floaty
+7,Coffee Shop Stories,Slow Stereo,jazz,relaxed,0.37,90,0.71,0.54,0.89,0.60,41,2017,en,warm|nostalgic|smooth
+8,Night Drive Loop,Neon Echo,synthwave,moody,0.75,110,0.49,0.73,0.22,0.30,60,2016,en,nostalgic|moody|retro
+9,Focus Flow,LoRoom,lofi,focused,0.40,80,0.59,0.60,0.78,0.88,57,2021,instrumental,focused|mellow|calm
+10,Rooftop Lights,Indigo Parade,indie pop,happy,0.76,124,0.81,0.82,0.35,0.04,70,2019,en,uplifting|summery|euphoric
+11,Velvet Midnight,Aria Voss,classical,melancholy,0.22,66,0.28,0.30,0.95,0.98,38,2015,instrumental,melancholy|cinematic|somber
+12,Concrete Kings,Prime Verse,hip-hop,confident,0.85,96,0.62,0.90,0.08,0.02,74,2022,en,confident|aggressive|hype
+13,Neon Overdrive,Pulsewave,edm,euphoric,0.95,128,0.88,0.92,0.03,0.10,85,2023,en,euphoric|hype|driving
+14,Dust and Denim,Hollow Pines,country,nostalgic,0.48,100,0.55,0.52,0.72,0.15,52,2014,en,nostalgic|warm|wistful
+15,Silk Confessions,Mia Solent,r&b,romantic,0.44,84,0.74,0.68,0.40,0.05,66,2020,en,romantic|smooth|sensual
+16,Island Time,Cool Breeze Collective,reggae,laid-back,0.52,92,0.80,0.75,0.45,0.08,58,2018,en,laid-back|summery|warm
+17,Iron Verdict,Ashfall,metal,aggressive,0.98,168,0.35,0.55,0.02,0.03,49,2017,en,aggressive|dark|powerful
+18,Paper Boats,Wren & Willow,folk,wistful,0.33,76,0.47,0.44,0.88,0.20,40,2013,en,wistful|nostalgic|gentle
+19,Reflections in the Rain,J. Cole,hip-hop,introspective,0.55,88,0.45,0.70,0.35,0.02,79,2019,en,introspective|somber|nostalgic
+20,Crown Weight,J. Cole,hip-hop,motivational,0.72,94,0.60,0.82,0.15,0.02,81,2021,en,motivational|confident|uplifting
