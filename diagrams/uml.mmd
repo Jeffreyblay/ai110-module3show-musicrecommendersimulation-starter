@@ -1,0 +1,35 @@
+%% Music Recommender Simulation - Data Flow (planning aid)
+%% Input (User Prefs) -> Process (score every song) -> Output (Top K)
+flowchart TD
+    A["INPUT<br/>UserProfile / user_prefs<br/>favorite_genre, favorite_mood,<br/>target_energy, target_valence,<br/>target_danceability,<br/>target_acousticness, target_tempo_bpm"]
+
+    B[("data/songs.csv<br/>catalog of 20 songs")]
+
+    A --> P
+    B -->|load_songs| C["List of Song objects"]
+    C --> P
+
+    subgraph P["PROCESS - the loop: judge every song"]
+        direction TB
+        L{{"for each song in catalog"}}
+        S1["+2.0 if genre matches"]
+        S2["+1.0 if mood matches"]
+        S3["+ energy proximity<br/>2.0 * (1 - |energy - target|)"]
+        S4["+ other numeric proximity<br/>valence, danceability,<br/>acousticness, tempo (scaled)"]
+        SUM["total_score = sum of parts<br/>+ reasons/explanation"]
+        L --> S1 --> S2 --> S3 --> S4 --> SUM
+        SUM -->|next song| L
+    end
+
+    P --> R["scored songs<br/>[(song, score, reason), ...]"]
+
+    subgraph O["OUTPUT - the ranking"]
+        direction TB
+        SORT["sort by score, highest first"]
+        TIE["break ties / filter"]
+        TOPK["take top K"]
+        SORT --> TIE --> TOPK
+    end
+
+    R --> O
+    O --> FINAL["Top K Recommendations<br/>shown to the user"]
